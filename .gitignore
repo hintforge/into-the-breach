@@ -23,6 +23,10 @@
 !settings.md
 !warning_tiers.md
 !CLAUDE.md
+
+# --- README storefront + status-card assets (status-card convention, 2026-08-21) ---
+!README.md
+!assets/**
 !DISCLAIMER.md
 
 # --- Declared vector-extensions (one !<ext>/** per manifest entry) ---

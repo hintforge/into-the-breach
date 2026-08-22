@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 820" width="1500" height="820" role="img" aria-label="Into the Breach Hintforge companion status card">
+  <!-- Into the Breach - Hintforge status card. Theme = clean tactical grid (teal/slate/orange);
+       verification mark = a DIGITAL CERTIFIED BADGE with a checkmark, not a stamp. -->
+  <style>
+    :root{
+      --paper:#e6e8e4; --paper-edge:#cdd1cb; --ink:#262b2d; --ink-soft:#5c656a;
+      --primary:#2d7570; --primary-lt:#5b9c97; --seg:#566169; --seg-dk:#363f45;
+      --cream:#eef2f0; --active:#cf7b33; --rule:#c9cec9;
+    }
+    .mono{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;}
+    .b{font-weight:700;} text{fill:var(--ink);}
+    .tag{font-size:20px;letter-spacing:1px;} .tag-o{fill:var(--primary);} .soft{fill:var(--ink-soft);}
+    .title{font-size:76px;letter-spacing:2px;fill:var(--ink);}
+    .sub{font-size:26px;fill:var(--ink-soft);}
+    .seclbl{font-size:25px;letter-spacing:1px;fill:var(--primary);}
+    .cap{font-size:21px;fill:var(--ink-soft);}
+    .seg{font-size:20px;letter-spacing:1px;fill:var(--cream);}
+    .rlbl{font-size:23px;letter-spacing:1px;fill:var(--primary);}
+    .rval{font-size:22px;fill:var(--ink);} .rval-mute{font-size:22px;fill:var(--ink-soft);}
+    .foot{font-size:21px;fill:var(--ink-soft);}
+  </style>
+  <defs>
+    <radialGradient id="vig" cx="50%" cy="42%" r="80%">
+      <stop offset="58%" stop-color="var(--paper)"/><stop offset="100%" stop-color="var(--paper-edge)"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.04 0"/></filter>
+  </defs>
+
+  <rect x="0" y="0" width="1500" height="820" fill="url(#vig)"/>
+  <rect x="0" y="0" width="1500" height="820" filter="url(#grain)" opacity="0.35"/>
+
+  <rect x="38" y="38" width="1424" height="744" fill="none" stroke="var(--primary)" stroke-width="3"/>
+  <rect x="47" y="47" width="1406" height="726" fill="none" stroke="var(--primary-lt)" stroke-width="1"/>
+  <g stroke="var(--primary)" stroke-width="3">
+    <path d="M47 47 h26 M47 47 v26"/><path d="M1453 47 h-26 M1453 47 v26"/>
+    <path d="M47 773 h26 M47 773 v-26"/><path d="M1453 773 h-26 M1453 773 v-26"/>
+  </g>
+
+  <text class="mono b tag tag-o" x="78" y="82">TIMELINE COMMAND</text>
+  <text class="mono tag soft" x="350" y="82">//  DEPLOYMENT LOG</text>
+  <text class="mono tag soft" x="1422" y="82" text-anchor="end">FILE No. HF-ITB-001</text>
+  <line x1="78" y1="100" x2="1422" y2="100" stroke="var(--primary-lt)" stroke-width="1"/>
+
+  <text class="mono b title" x="78" y="196">INTO THE BREACH</text>
+  <text class="mono sub" x="80" y="248">Turn-based mech tactics &#8212; a time-travel roguelike</text>
+
+  <text class="mono b seclbl" x="78" y="340">COVERAGE</text>
+  <text class="mono cap" x="288" y="340">every squad, the tactics grid &amp; achievements mapped</text>
+  <g>
+    <rect x="78"   y="366" width="327" height="52" rx="6" fill="var(--seg)" stroke="var(--seg-dk)"/>
+    <text class="mono b seg" x="241"  y="399" text-anchor="middle">SQUADS</text>
+    <rect x="417"  y="366" width="327" height="52" rx="6" fill="var(--seg)" stroke="var(--seg-dk)"/>
+    <text class="mono b seg" x="580"  y="399" text-anchor="middle">MECHANICS</text>
+    <rect x="756"  y="366" width="327" height="52" rx="6" fill="var(--seg)" stroke="var(--seg-dk)"/>
+    <text class="mono b seg" x="919"  y="399" text-anchor="middle">WEAPONS</text>
+    <rect x="1095" y="366" width="327" height="52" rx="6" fill="var(--seg)" stroke="var(--seg-dk)"/>
+    <text class="mono b seg" x="1258" y="399" text-anchor="middle">ACHIEVEMENTS</text>
+  </g>
+
+  <circle cx="96" cy="470" r="10" fill="var(--active)" stroke="#8a4f1e"/>
+  <text class="mono b rlbl" x="130" y="478">VERIFIED</text>
+  <text class="mono rval" x="352" y="478">vs the live game, June 2026 &#8212; stable (Advanced Edition)</text>
+  <line x1="78" y1="500" x2="1422" y2="500" stroke="var(--rule)" stroke-width="1"/>
+
+  <circle cx="96" cy="536" r="10" fill="var(--active)" stroke="#8a4f1e"/>
+  <text class="mono b rlbl" x="130" y="544">SPOILER CTRL</text>
+  <text class="mono rval" x="352" y="544">you set two dials &#8212; enemy (0-5) &amp; puzzle (0-3), both start silent</text>
+  <line x1="78" y1="566" x2="1422" y2="566" stroke="var(--rule)" stroke-width="1"/>
+
+  <circle cx="96" cy="602" r="10" fill="none" stroke="var(--ink-soft)" stroke-width="2" stroke-dasharray="4 3"/>
+  <text class="mono b rlbl" x="130" y="610" fill="var(--ink-soft)">SAVE READER</text>
+  <text class="mono rval-mute" x="352" y="610">none &#8212; a corpus-fed guide (this game's saves aren't read)</text>
+  <line x1="78" y1="632" x2="1422" y2="632" stroke="var(--rule)" stroke-width="1"/>
+
+  <circle cx="96" cy="668" r="10" fill="none" stroke="var(--ink-soft)" stroke-width="2" stroke-dasharray="4 3"/>
+  <text class="mono b rlbl" x="130" y="676" fill="var(--ink-soft)">TOOLS</text>
+  <text class="mono rval-mute" x="352" y="676">none yet &#8212; a grid battle sandbox is the natural fit (fully deterministic)</text>
+
+  <circle cx="90" cy="712" r="9" fill="none" stroke="var(--primary)" stroke-width="1.5"/>
+  <text class="mono b" x="90" y="718" font-size="13px" text-anchor="middle" fill="var(--primary)">i</text>
+  <text class="mono foot" x="118" y="720" font-style="italic">Answers come only from this guide's files &#8212; never guesswork or training data.</text>
+
+  <text class="mono foot" x="78" y="762">github.com/hintforge/into-the-breach</text>
+  <text class="mono foot" x="1422" y="762" text-anchor="end">reads only the files you control</text>
+
+  <!-- DIGITAL CERTIFIED BADGE (checkmark chip, not a stamp) -->
+  <g transform="translate(1178 110)">
+    <rect x="0" y="0" width="222" height="88" rx="12" fill="var(--primary)" stroke="#1f524e" stroke-width="2"/>
+    <circle cx="42" cy="44" r="21" fill="none" stroke="var(--cream)" stroke-width="3"/>
+    <path d="M31 45 l8 9 l15 -19" fill="none" stroke="var(--cream)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="mono b" x="78" y="41" font-size="25px" letter-spacing="2" fill="var(--cream)">VERIFIED</text>
+    <text class="mono" x="78" y="66" font-size="15px" letter-spacing="1" fill="var(--cream)">JUN 2026</text>
+  </g>
+</svg>
