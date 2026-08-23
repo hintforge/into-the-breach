@@ -11,7 +11,7 @@ Cross-zone structural primitives for Into the Breach. The persona reads this fil
 ## Hintforge manifest
 
 ```
-corpus-core-version: 5
+corpus-core-version: 6
 game-version: "latest"
 game-version-platform: "PC / Steam"
 game-version-as-of: 2026-06-02
