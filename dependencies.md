@@ -43,7 +43,7 @@
 
 ## Corpus inconsistencies
 
-Stitch's per-edge convergence audit (see [`../../hintforge/stitch_and_zipper.md`](../../hintforge/stitch_and_zipper.md) Phase B) populates this section when a candidate edge's cited sources contradict each other.
+Stitch's per-edge convergence audit (see [`stitch_and_zipper.md`](https://github.com/hintforge/builder/blob/main/stitch_and_zipper.md) Phase B) populates this section when a candidate edge's cited sources contradict each other.
 
 | Detected | Files | Conflicting values | Suspected authoritative source | Status |
 |----------|-------|--------------------|--------------------------------|--------|
