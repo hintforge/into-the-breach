@@ -60,7 +60,7 @@
 
   <circle cx="96" cy="470" r="10" fill="var(--active)" stroke="#8a4f1e"/>
   <text class="mono b rlbl" x="130" y="478">VERIFIED</text>
-  <text class="mono rval" x="352" y="478">vs the live game, June 2026 &#8212; stable (Advanced Edition)</text>
+  <text class="mono rval" x="352" y="478">Jun 2026 · last patch v1.2.88 (Jan 2023) · feed 2026-10-07</text>
   <line x1="78" y1="500" x2="1422" y2="500" stroke="var(--rule)" stroke-width="1"/>
 
   <circle cx="96" cy="536" r="10" fill="var(--active)" stroke="#8a4f1e"/>
