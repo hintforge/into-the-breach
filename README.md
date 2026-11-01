@@ -1,21 +1,29 @@
-# Into the Breach — Hintforge Companion
+# Into the Breach
 
-![Into the Breach companion status — coverage, how current it is, and spoiler control](assets/readme-status-card.svg)
+![Into the Breach companion status: coverage, how current it is, and spoiler control](assets/readme-status-card.svg)
 
-A spoiler-controlled hint companion for **Into the Breach**, Subset Games' turn-based mech tactics roguelike where you defend islands from the Vek — and reset the timeline when a run goes wrong. Built in the [Hintforge](https://github.com/hintforge/builder) format: a loyal sidekick that answers only from these guide files — never from guesswork — at the spoiler level you set.
+A free, spoiler-controlled hint guide for Into the Breach. In Subset Games' turn-based mech tactics roguelike, defend islands from the Vek and reset the timeline when a run goes wrong. Your AI agent answers only from the guide files.
 
 ## Use it
 
-You need a Hintforge reader running in Claude Code, Codex, or OpenClaw. Point it at this repo:
+Install the [reader](https://github.com/hintforge/reader) in any AI agent that can read files on your computer, then tell it:
 
 > Load the Into the Breach guide from github.com/hintforge/into-the-breach
 
-Then just ask — *"how does this squad play," "how do I clear this turn," "which pilot is worth it."* Runtime setup lives in [`hintforge/reader`](https://github.com/hintforge/reader).
+Try "how does this squad play", "how do I clear this turn" or "which pilot is worth it".
+
+The guide uses the [Hintforge](https://github.com/hintforge/builder) format. The agent reads and writes only files you control.
 
 ## Spoilers
 
-**You** set two independent dials — enemy warnings (Tier 0–5) and puzzle-hint warnings (Tier 0–3) — both **silent by default**; the guide volunteers nothing until you raise one. The game is fully deterministic, so hints are exact rather than probabilistic. There's no save-state reader, so every answer comes from this guide's files.
+Two independent dials control enemy warnings (Tier 0 to 5) and puzzle hints (Tier 0 to 3). Both start silent. The guide volunteers nothing until you raise one.
+
+The game is fully deterministic, so hints are exact rather than probabilistic. There is no save reader; answers come from the guide files.
 
 ## What's inside
 
-A structured Markdown corpus — every squad (mechs, weapons, pilots), the core tactics/grid mechanics, weapons, and all achievements. Interactive tools (a grid battle sandbox — the perfect fit for a fully deterministic game) aren't built yet. The companion reads and writes only the files you control.
+- Every squad, with its mechs, weapons and pilots.
+- Core tactics, grid mechanics and weapons.
+- All achievements.
+
+Interactive tools, including a grid battle sandbox, aren't built yet.
